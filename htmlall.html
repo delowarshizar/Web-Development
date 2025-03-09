@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Html</title>
+</head>
+
+<body>
+    <h1>Delowar Husain</h1>
+    <p>Aspiring software engineer</p>
+    <p><b>Here is bold</b></p>
+    <p><i>here is itatlic</i></p>
+    <p><strong>it's strong it simial like boldf</strong></p>
+    <p><em>here is emphasized</em></p>
+    <ul type="cirle"> This is demo list
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ol type="i">
+        this is order demo list
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <a href="www.google.com" target="_blank">Google</a>
+    <img src="/IMG_4193 edit.JPG" alt="Delowar photo" height=200>
+    <table border="1">
+        <caption>This table </caption>
+        <tr>
+            <th>fruits</th>
+            <th>price</th>
+            <th>quantity</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>10$</td>
+            <td>10</td>
+
+        </tr>
+        <tr>
+            <td>total cost = </td>
+            <td colspan="2"> 100$</td>
+        </tr>
+    </table>
+    <form action="/nothing">
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email" id="email" required>
+        </div>
+        <div>
+            <label for="Name">Full Name</label>
+            <input type="text" placeholder="enter your full name" id="Name" required>
+        </div>
+        <div>
+            <label for="fruit"> Select your favorit food</label>
+            <input type="radio" name="fruit" id="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="orange">
+            <!--name used for grouping the content and id used for connecting to the label-->
+            <label for="orange">Orange</label>
+        </div>
+        <div>
+            <input type="checkbox" id="mark">
+            <label for="mark">mark as done</label>
+        </div>
+
+        <div>
+            <label for="comment">write your feedback</label>
+            <textarea name="comment" id="comment" rows="4" placeholder="write your opinion"></textarea>
+        </div>
+        <div>
+            <label for="subject">Select your subject</label>
+            <select name="subject" id="subject">
+                <option value="bangla">Bangla</option>
+                <option value="english">English</option>
+                <option value="arbic">Arbic</option>
+            </select>
+        </div>
+        <div>
+            <button type="reset">Clear</button>
+            <button type="submit">Completed</button>
+        </div>
+    </form>
+</body>
+
+</html>
